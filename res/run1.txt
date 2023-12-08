@@ -1,0 +1,233 @@
+Run 1: This run demonstrates player navigating through the dungeon, picking treasure, picking arrows kills the Otyugh and wins the game by reaching end.
+The dungeon consists of 2 rows 6 columns with 1 monster. It is a non wrapping dungeon with 30% locations having treasure.
+
+Name: Player1
+Arrow Count :3
+No treasure collected yet!
+Location Description :
+Location id :12
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+WEST: ID -> 11
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [WEST]
+
+Name: Player1
+Arrow Count :3
+No treasure collected yet!
+Location Description :
+Location id :11
+Location type :Tunnel
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 5
+EAST: ID -> 12
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [NORTH, EAST]
+
+Name: Player1
+Arrow Count :3
+No treasure collected yet!
+Location Description :
+Location id :5
+Location type :Cave
+Arrows at location 2
+The connections for the location are :
+EAST: ID -> 6
+WEST: ID -> 4
+SOUTH: ID -> 11
+The treasure at the location is
+SAPPHIRE
+RUBY
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+What do you want to pick? Treasure[t], Arrow[a]
+
+You picked the treasure present at the location.
+Name: Player1
+Arrow Count :3
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :5
+Location type :Cave
+Arrows at location 2
+The connections for the location are :
+EAST: ID -> 6
+WEST: ID -> 4
+SOUTH: ID -> 11
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+You picked the arrows present at the location.
+Name: Player1
+Arrow Count :5
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :5
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+EAST: ID -> 6
+WEST: ID -> 4
+SOUTH: ID -> 11
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+Invalid move.
+Name: Player1
+Arrow Count :5
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :5
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+EAST: ID -> 6
+WEST: ID -> 4
+SOUTH: ID -> 11
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [EAST, WEST, SOUTH]
+
+Name: Player1
+Arrow Count :5
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :4
+Location type :Tunnel
+Arrows at location 2
+The connections for the location are :
+EAST: ID -> 5
+SOUTH: ID -> 10
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+You picked the arrows present at the location.
+Name: Player1
+Arrow Count :7
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :4
+Location type :Tunnel
+Arrows at location 0
+The connections for the location are :
+EAST: ID -> 5
+SOUTH: ID -> 10
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+Invalid move.
+Name: Player1
+Arrow Count :7
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :4
+Location type :Tunnel
+Arrows at location 0
+The connections for the location are :
+EAST: ID -> 5
+SOUTH: ID -> 10
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [EAST, SOUTH]
+
+Name: Player1
+Arrow Count :7
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :10
+Location type :Tunnel
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 4
+WEST: ID -> 9
+No treasure in this location
+There is a weak smell of something deadly nearby
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [NORTH, WEST]
+
+Name: Player1
+Arrow Count :7
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :9
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 3
+EAST: ID -> 10
+WEST: ID -> 8
+No treasure in this location
+There is a strong deadly smell.
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to shoot?
+
+Enter the distance for shooting the arrow:
+
+You hit the monster!!
+Name: Player1
+Arrow Count :6
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :9
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 3
+EAST: ID -> 10
+WEST: ID -> 8
+No treasure in this location
+There is a strong deadly smell.
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to shoot?
+
+Enter the distance for shooting the arrow:
+
+You hit the monster!!
+Name: Player1
+Arrow Count :5
+Treasure Collected :
+SAPPHIRE: 1
+RUBY: 1
+Location Description :
+Location id :9
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 3
+EAST: ID -> 10
+WEST: ID -> 8
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [NORTH, EAST, WEST]
+
+You won! Congratulations!

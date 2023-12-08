@@ -1,0 +1,110 @@
+Run 2: This run demonstrates player navigating the dungeon, collecting treasure and getting killed by Otyugh.
+The dungeon is a 3x4 wrapping grid with 2 monsters and 30% locations having treasure.
+
+Name: Player1
+Arrow Count :3
+No treasure collected yet!
+Location Description :
+Location id :4
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+EAST: ID -> 1
+The treasure at the location is
+SAPPHIRE
+RUBY
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+You picked the treasure present at the location.
+Name: Player1
+Arrow Count :3
+Treasure Collected :
+RUBY: 1
+SAPPHIRE: 1
+Location Description :
+Location id :4
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+EAST: ID -> 1
+No treasure in this location
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [EAST]
+
+Name: Player1
+Arrow Count :3
+Treasure Collected :
+RUBY: 1
+SAPPHIRE: 1
+Location Description :
+Location id :1
+Location type :Tunnel
+Arrows at location 0
+The connections for the location are :
+SOUTH: ID -> 5
+WEST: ID -> 4
+No treasure in this location
+There is a weak smell of something deadly nearby
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [SOUTH, WEST]
+
+Name: Player1
+Arrow Count :3
+Treasure Collected :
+RUBY: 1
+SAPPHIRE: 1
+Location Description :
+Location id :5
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 1
+EAST: ID -> 6
+SOUTH: ID -> 9
+No treasure in this location
+There is a strong deadly smell.
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [NORTH, EAST, SOUTH]
+
+Name: Player1
+Arrow Count :3
+Treasure Collected :
+RUBY: 1
+SAPPHIRE: 1
+Location Description :
+Location id :6
+Location type :Tunnel
+Arrows at location 0
+The connections for the location are :
+SOUTH: ID -> 10
+WEST: ID -> 5
+No treasure in this location
+There is a strong deadly smell.
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [SOUTH, WEST]
+
+Name: Player1
+Arrow Count :3
+Treasure Collected :
+RUBY: 1
+SAPPHIRE: 1
+Location Description :
+Location id :10
+Location type :Cave
+Arrows at location 0
+The connections for the location are :
+NORTH: ID -> 6
+EAST: ID -> 11
+WEST: ID -> 9
+No treasure in this location
+There is a strong deadly smell.
+Enter your choice: Move{m}, Shoot Arrow{s}, Pick{p}, Quit{q}:
+
+In which direction you want to move? [NORTH, EAST, WEST]
+
+You just died!
+Good Luck Next Time
