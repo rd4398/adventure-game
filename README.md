@@ -27,15 +27,6 @@ java -jar Project5-GraphicalAdventureGame.jar
 #### Mouse
 - Use mouse click to move the player in required direction.
 
-### Symbols
-- ![Monster](img/otyugh.png)  Monster
-- ![Arrow](img/arrow-white.png)   Arrow
-- ![Ruby](img/ruby.png)    Ruby
-- ![Diamond](img/diamond.png)   Diamond
-- ![Sapphire](img/sapphire.png)   Sapphire
-- ![Player](img/player.png)   Player
-- ![Weak Smell](img/stench01.png)  Weak smell
-- ![Strong Smell](img/stench02.png)  Strong smell
 ## Description of Examples
 The dungeon_game.png in the /res folder shows the graphical adventure game. The top part of the frame consists of a menu where user can restart, start a new game or quit the game. Player moving and exploring the dungeon is captured in the screenshot. The bottom part of the frame shows the description of player and location based on current location of the player. The user can view the controls in the bottom right of the frame.The player can pick treasure, arrows and can shoot the monster by sensing the level of stench. 
 
